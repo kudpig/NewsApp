@@ -13,6 +13,8 @@
 		8F680F1626755D7700892907 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F680F1426755D7700892907 /* Main.storyboard */; };
 		8F680F1826755D7800892907 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F680F1726755D7800892907 /* Assets.xcassets */; };
 		8F680F1B26755D7800892907 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F680F1926755D7800892907 /* LaunchScreen.storyboard */; };
+		8F680F232675F5FF00892907 /* APICaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F680F222675F5FF00892907 /* APICaller.swift */; };
+		8F680F2526760A3000892907 /* NewsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F680F2426760A3000892907 /* NewsTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		8F680F1726755D7800892907 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8F680F1A26755D7800892907 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8F680F1C26755D7800892907 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F680F222675F5FF00892907 /* APICaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICaller.swift; sourceTree = "<group>"; };
+		8F680F2426760A3000892907 /* NewsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				8F680F1726755D7800892907 /* Assets.xcassets */,
 				8F680F1926755D7800892907 /* LaunchScreen.storyboard */,
 				8F680F1C26755D7800892907 /* Info.plist */,
+				8F680F222675F5FF00892907 /* APICaller.swift */,
+				8F680F2426760A3000892907 /* NewsTableViewCell.swift */,
 			);
 			path = NewsApp;
 			sourceTree = "<group>";
@@ -139,7 +145,9 @@
 			files = (
 				8F680F1326755D7700892907 /* ViewController.swift in Sources */,
 				8F680F0F26755D7700892907 /* AppDelegate.swift in Sources */,
+				8F680F2526760A3000892907 /* NewsTableViewCell.swift in Sources */,
 				8F680F1126755D7700892907 /* SceneDelegate.swift in Sources */,
+				8F680F232675F5FF00892907 /* APICaller.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
